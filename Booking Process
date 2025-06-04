@@ -1,0 +1,15 @@
+<form id="bookingForm">
+    <input type="text" id="passengerName" placeholder="Your Name" required>
+    <input type="text" id="seatNumber" placeholder="Seat Number" required>
+    <button type="submit">Book Ticket</button>
+</form>
+
+<script>
+    document.getElementById('bookingForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        axios.post('/api/bookings', {
+            busId: selectedBusId,
+            passengerName: document.getElementById('passengerName').value,
+            seatNumber:
+::contentReference[oaicite:0]{index=0}
+ 
